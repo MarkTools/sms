@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+	<soapenv:Body>
+		<ns:processRequestResponse xmlns:ns="http://wrapper.fcr.banking.founder.com">
+			<ns:return xmlns:ax23400="http://transaction.entity.fcr.iflex.com/xsd"
+				xmlns:ax23396="http://error.validation.infra.fcr.iflex.com/xsd"
+				xmlns:ax23401="http://exception.infra.fcr.iflex.com/xsd"
+				xmlns:ax23402="http://enumeration.infra.fcr.iflex.com/xsd"
+				xmlns:ax23392="http://context.app.fcr.iflex.com/xsd" xmlns:ax23395="http://common.dto.xface.chn.fcr.iflex.com/xsd"
+				xmlns:ax23394="http://dto.fcr.banking.founder.com/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:type="ax23394:XfaceLoanAccountInquiryResponseDTO">
+				<ax23395:postingDate>20160101</ax23395:postingDate>
+				<ax23395:transactionStatus xsi:type="ax23400:TransactionStatus">
+					<ax23400:FCYHangeHandlingApplied>false
+					</ax23400:FCYHangeHandlingApplied>
+					<ax23400:errorCode>0</ax23400:errorCode>
+					<ax23400:extendedReply xsi:type="ax23401:ExtendedReply">
+						<ax23401:messages xsi:nil="true" />
+					</ax23400:extendedReply>
+					<ax23400:externalReferenceNo>4/22/20 6:16 PM13114354242
+					</ax23400:externalReferenceNo>
+					<ax23400:isOverriden>false</ax23400:isOverriden>
+					<ax23400:isServiceChargeApplied>false
+					</ax23400:isServiceChargeApplied>
+					<ax23400:memo xsi:nil="true" />
+					<ax23400:replyCode>0</ax23400:replyCode>
+					<ax23400:replyText xsi:nil="true" />
+					<ax23400:spReturnValue>0</ax23400:spReturnValue>
+					<ax23400:userReferenceNumber xsi:nil="true" />
+					<ax23400:validationErrors xsi:nil="true" />
+				</ax23395:transactionStatus>
+				<ax23394:loanAccountDetails xsi:type="ax23394:LoanAccountDTO">
+					<ax23394:item xsi:type="ax23394:LoanAccountItemDTO">
+						<ax23394:disbursementAmount>3000000.00
+						</ax23394:disbursementAmount>
+						<ax23394:disbursementDate>20150910</ax23394:disbursementDate>
+						<ax23394:loanAccountName>绍兴市龙虎兄弟贸易有限公司</ax23394:loanAccountName>
+						<ax23394:loanAccountNumber>000705920551760
+						</ax23394:loanAccountNumber>
+						<ax23394:maturityDate>20160309</ax23394:maturityDate>
+					</ax23394:item>
+				</ax23394:loanAccountDetails>
+			</ns:return>
+		</ns:processRequestResponse>
+	</soapenv:Body>
+</soapenv:Envelope>
